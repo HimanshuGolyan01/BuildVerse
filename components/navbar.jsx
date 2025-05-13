@@ -1,21 +1,23 @@
 import React from "react";
 
 const Navbar = () => {
-    return (
-        <div className="flex justify-between item-center py-10 px-35 absolute top-0 left-0 z-10 w-full">
-            <div>LOGO</div>
-            <div className="flex item-center gap-20">
-                <div>Services</div>
-                <div>Case</div>
-                <div>Who We Are</div>
-                <div>Pricing</div>
-                <div>Testimonial</div>
-            </div>
-            <div>
-                <button className="text-white bg-gray-900 px-10 py-3 rounded-lg">Get started</button>
-            </div>
-        </div>
-    );
+  return (
+    <div className="flex justify-between items-center px-10 py-4 w-[90%] absolute top-5 left-1/2 -translate-x-1/2 z-10 rounded-full bg-white/10 backdrop-blur-lg border border-white/20 shadow-lg">
+      <div className="font-extrabold text-lg text-black ">BuildVerse</div>
+      <div className="flex items-center gap-10 text-sm font-medium text-black">
+        <div>Services</div>
+        <div>Case</div>
+        <div>Who We Are</div>
+        <div>Pricing</div>
+        <div>Testimonial</div>
+      </div>
+      <div>
+        <button className="text-white bg-black/70 px-6 py-2 rounded-lg text-sm hover:bg-black">
+          Get started
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default Navbar;

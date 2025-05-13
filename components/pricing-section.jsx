@@ -1,5 +1,5 @@
 import React from 'react'
-import PricingCards from './pricing'
+import PricingCards from './ui/pricing'
 
 const Pricingsection = () => {
   return (

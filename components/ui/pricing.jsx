@@ -2,7 +2,7 @@ import React from 'react';
 
 const PricingCards = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center px-40 py-10 top-[11rem] absolute z-50">
+    <div className="min-h-screenflex items-center justify-center px-40 py-10 top-[11rem] absolute z-50">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-10xl w-full">
         <div className="bg-white rounded-xl shadow p-6 flex flex-col justify-between">
           <div>
@@ -23,7 +23,7 @@ const PricingCards = () => {
               <li>✔️ Unlimited layers</li>
             </ul>
           </div>
-          <button className="mt-6 bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
+          <button className="mt-6 bg-purple-600 text-white py-2 px-4 rounded hover:bg-gray-800">
             Start for Free →
           </button>
         </div>
@@ -47,7 +47,7 @@ const PricingCards = () => {
               <li>✔️ 2k CMS items</li>
             </ul>
           </div>
-          <button className="mt-6 bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
+          <button className="mt-6 bg-purple-600 text-white py-2 px-4 rounded hover:bg-gray-800">
             Get Started → $40.00
           </button>
         </div>
@@ -73,7 +73,7 @@ const PricingCards = () => {
               <li>✔️ Launch support</li>
             </ul>
           </div>
-          <button className="mt-6 bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
+          <button className="mt-6 bg-purple-600 text-white py-2 px-4 rounded hover:bg-gray-800">
             Contact Us →
           </button>
         </div>

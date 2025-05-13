@@ -4,6 +4,10 @@ import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
 import Features from "@/components/features";
 import Pricingsection from "@/components/pricing-section";
+import ReviewSection from "@/components/reviews-section";
+import FaqSection from "@/components/faq-section";
+import Footer from "@/components/footer";
+
 export default function HomePage() {
   return (
     <div className="relative">
@@ -12,7 +16,11 @@ export default function HomePage() {
       <Hero/>
       <Features/>
       <Pricingsection/>
-    </div>
+      <ReviewSection/>
+      <FaqSection/>
+      <Footer/>
+      
+      </div>
   );
 }
 
