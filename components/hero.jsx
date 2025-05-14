@@ -14,7 +14,7 @@ const companyImages = [
 
 const Hero = () => {
     return (
-        <div className="absolute z-30 bg-white rounded-2xl border border-grey-600 top-140 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-6xl py-12 px-4 sm:px-6 md:py-20">
+        <div className="absolute z-30 bg-white rounded-2xl border border-grey-600 top-120 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-6xl py-12 px-4 sm:px-6 md:py-20">
             <div className="flex flex-col items-center justify-center text-center">
                 <div className="flex items-center bg-gray-100 rounded-full px-4 py-1 shadow-sm mb-4">
                     <span className="font-medium text-black mr-3 text-sm sm:text-base">

@@ -35,7 +35,7 @@ const fadeIn = {
 
 const ReviewSection = () => {
   return (
-    <div className="w-full px-4 py-16 bg-gray-50 relative z-50 top-[160rem]">
+    <div className="w-full px-4 py-16 bg-gray-50 relative z-50 lg:top-[180rem] md:top-[195rem] top-[335rem]">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4">What people are saying</h2>
         <p className="text-gray-600 mb-12">Real feedback from real users.</p>

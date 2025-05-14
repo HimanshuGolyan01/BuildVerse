@@ -6,11 +6,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-[90%] max-w-7xl absolute top-5 left-1/2 -translate-x-1/2 z-10 rounded-full bg-white/10 backdrop-blur-lg border border-white/20 shadow-lg px-6 py-4 flex items-center justify-between">
+    <div className="w-[90%] lg:max-w-7xl max-w-8xl absolute top-5 left-1/2 -translate-x-1/2 z-10 rounded-full bg-white/10 backdrop-blur-lg border border-white/20 shadow-lg lg:px-6 px-5 py-4 flex items-center justify-between">
       <div className="font-extrabold text-lg text-black">BuildVerse</div>
 
       {/* Desktop Nav */}
-      <div className="hidden md:flex items-center gap-10 text-sm font-medium text-black">
+      <div className="hidden md:flex items-center md:gap-8 gap-10 text-sm font-medium text-black">
         <div>Services</div>
         <div>Case</div>
         <div>Who We Are</div>

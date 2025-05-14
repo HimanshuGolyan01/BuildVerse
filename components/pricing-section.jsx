@@ -3,7 +3,7 @@ import PricingCards from './ui/pricing'
 
 const Pricingsection = () => {
   return (
-    <div className='absolute z-50 top-[120rem] w-full'>
+    <div className='absolute z-50 lg:top-[130rem] md:top-[150rem] top-[250rem] w-full'>
         <div className='flex flex-col items-center text-center justify-center'>
             <div className='rounded-2xl border border-gray-500 px-2 py-2'>Flexible-3-Plans</div>
             <div className='font-bold py-3 text-3xl'>Simple and Transparent Pricing</div>

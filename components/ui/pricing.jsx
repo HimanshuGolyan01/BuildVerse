@@ -2,7 +2,7 @@ import React from "react";
 
 const PricingCards = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 md:px-20 py-10">
+    <div className="min-h-screen flex items-center justify-center px-4 md:px-20 ">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-7xl">
         {/* Basic Plan */}
         <div className="bg-white rounded-xl shadow p-6 flex flex-col justify-between">
