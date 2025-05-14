@@ -35,14 +35,14 @@ const FaqSection = () => {
 
   return (
     <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-3xl mx-auto text-center relative z-50 top-[150rem] md:top-[190rem] lg:top-[175rem]">
+      <div className="max-w-3xl mx-auto text-center relative z-50 top-[330rem] md:top-[190rem] lg:top-[175rem]">
         <h2 className="text-3xl font-bold text-gray-900">Still have questions?</h2>
         <p className="mt-2 text-gray-600">
           Find quick answers to commonly asked questions about Designor. Have a question not listed?
         </p>
       </div>
 
-      <div className="mt-12 max-w-xl mx-auto space-y-4 relative z-50 top-[150rem] md:top-[190rem] lg:top-[175rem]">
+      <div className="mt-12 max-w-xl mx-auto space-y-4 relative z-50 top-[330rem] md:top-[190rem] lg:top-[175rem]">
         {faqs.map((faq, i) => (
           <div
             key={i}

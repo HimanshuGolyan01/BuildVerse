@@ -13,7 +13,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-100 dark:bg-gray-900 text-black dark:text-white w-full pt-10 pb-6 px-4 sm:top-[215rem] md:top-[255rem] lg:top-[240rem] absolute">
+    <footer className="bg-gray-100 dark:bg-gray-900 text-black dark:text-white w-full pt-10 pb-6 px-4 top-[425rem] md:top-[255rem] lg:top-[240rem] absolute z-50">
       <div className="flex flex-col items-center justify-center text-center">
         <TypewriterEffect words={words} />
 
